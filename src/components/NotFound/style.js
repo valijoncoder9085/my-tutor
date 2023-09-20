@@ -1,25 +1,21 @@
 import {styled,} from "styled-components";
 const Container = styled.div`
-  max-width: 1920px;
-  padding: 0 30px;
-  margin: auto;
+  
 `;
 const NotFountWrapper = styled.div`
-  height: 100vh;
-  width: 100%;
   display: flex;
+  justify-content: center;
+  gap: 112px;
+  margin: 80px 0;
 `
 const NotFoundText = styled.div`
-  margin-left: 50px;
-  width: 60%;
-  height: 100vh;
+  min-width: 570px;
   display: grid;
   align-content: center;
-  padding: 0 100px
 `
 const NotErrorText = styled.div`
   color: #E9EAF0;
-  font-size: 6vw;
+  font-size: 5rem;
   font-style: normal;
   font-weight: 600;
   line-height: 80px;
@@ -27,7 +23,7 @@ const NotErrorText = styled.div`
 `
 const NotErrorOps = styled.div`
   color: #1D2026;
-  font-size: 3vw;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
   line-height: 52px; /* 108.333% */
@@ -36,7 +32,7 @@ const NotErrorOps = styled.div`
 `
 const NotErrorTitle = styled.div`
   color: #4E5566;
-  font-size: 1.3vw;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;

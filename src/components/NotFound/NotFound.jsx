@@ -13,7 +13,7 @@ import notFoundImg from '../../assets/img/not-found-img.svg';
 function NotFound() {
   return (
       <>
-        <Container>
+        <Container className="container">
           <NotFountWrapper>
             <NotFoundText>
               <NotErrorText>
