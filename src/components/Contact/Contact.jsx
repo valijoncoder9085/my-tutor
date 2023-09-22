@@ -1,8 +1,5 @@
 import {NavLink} from "react-router-dom";
-import thumb1 from "../../assets/img/contact/thumb1.jpg"
-import thumb2 from "../../assets/img/contact/thumb2.jpg"
-import thumb3 from "../../assets/img/contact/thumb3.jpg"
-import thumb4 from "../../assets/img/contact/thumb4.jpg"
+
 
 function Contact() {
   return (<>
@@ -64,7 +61,6 @@ function Contact() {
           <div className="col-xl-3 col-lg-6 col-md-6">
             <div className="branches-wrap">
               <div className="branches-thumb">
-                <img src={thumb1} alt=""/>
                 <div className="branches-data">
                   <h5>mAIN BRANCHE</h5>
                   <a href="#">
@@ -78,7 +74,6 @@ function Contact() {
           <div className="col-xl-3 col-lg-6 col-md-6">
             <div className="branches-wrap">
               <div className="branches-thumb">
-                <img src={thumb2} alt=""/>
                 <div className="branches-data">
                   <h5>mAIN BRANCHE</h5>
                   <a href="#">
@@ -92,7 +87,6 @@ function Contact() {
           <div className="col-xl-3 col-lg-6 col-md-6">
             <div className="branches-wrap">
               <div className="branches-thumb">
-                <img src={thumb3} alt=""/>
                 <div className="branches-data">
                   <h5>mAIN BRANCHE</h5>
                   <a href="#">
@@ -106,7 +100,6 @@ function Contact() {
           <div className="col-xl-3 col-lg-6 col-md-6">
             <div className="branches-wrap">
               <div className="branches-thumb">
-                <img src={thumb4} alt=""/>
                 <div className="branches-data">
                   <h5>mAIN BRANCHE</h5>
                   <a href="#">
