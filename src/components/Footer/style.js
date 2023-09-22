@@ -5,7 +5,6 @@ const Wrapper = styled.div`
   background-color: var(--gray-900);
   width: 100%;
   color: #fff;
-  margin-top: 80px;
 `
 const WrapperTop = styled.div``
 const Container = styled.div`

@@ -2,10 +2,11 @@ import { createBrowserRouter, createRoutesFromElements, Route} from "react-route
 import App from "../components/App/App.jsx";
 import About from "../components/About/About.jsx";
 import Home from "../components/Home/index.jsx";
-import Courses from "../components/Couerses/Courses.jsx";
+import Courses from "../components/Courses/Courses.jsx";
 import Contact from "../components/Contact/Contact.jsx";
 import BecomeInstructor from "../components/BecomeInstructor/BecomeInstructor.jsx";
 import NotFound from "../components/NotFound/NotFound.jsx";
+import SignUp from "../components/SignUp/SignUp.jsx";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -14,8 +15,9 @@ const router = createBrowserRouter(
           <Route path={'/about'} element={<About/>}></Route>
           <Route path={'/courses'} element={<Courses/>}></Route>
           <Route path={'/contact'} element={<Contact/>}></Route>
-          <Route path={'/become'} element={<BecomeInstructor/>}></Route>
+          <Route path={'/become-instructor'} element={<BecomeInstructor/>}></Route>
           <Route path={'*'} element={<NotFound/>}></Route>
+          <Route path={'/sign-up'} element={<SignUp/>}></Route>
         </Route>
     )
 )
