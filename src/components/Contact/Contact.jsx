@@ -135,7 +135,7 @@ function Contact() {
                   <div className="contact-title mb-2">
                     <h5>
                       Will you be in Los Angeles or any other<br />
-                      branches any time soon? Stop by the office! We'd love to meet.
+                      branches any time soon? Stop by the office!  love to meet.
                     </h5>
                   </div>
                   <div className="contact-info-item">
